@@ -32,6 +32,8 @@ Browser tests start the local server automatically. They cover the launch, pause
 
 GitHub Actions runs the unit checks, production build and Chromium checks before publishing `dist/` to Pages. The relative asset base supports a repository subpath. Pull requests run validation without publishing.
 
+CI runs browser checks sequentially, following [Playwright's guidance](https://playwright.dev/docs/ci#workers). Concurrent WebGL browser sessions exhausted the first hosted runner's test time limits; every behavioural assertion remains enabled.
+
 ## Physics experiment
 
 The playable uses a reduced fixed-step model of spin, tilt, drift and contact. It is tunable game behaviour, not a calibrated material simulation. Wobble and results follow the same simulation state. The grip tradeoffs and dent parameters are hypotheses for playtesting.

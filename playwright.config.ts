@@ -4,7 +4,8 @@ export default defineConfig({
   testDir: './tests',
   timeout: 50_000,
   fullyParallel: true,
-  workers: 2,
+  // Give each WebGL browser the shared runner's full rendering budget.
+  workers: process.env.CI ? 1 : 2,
   retries: 0,
   reporter: 'list',
   webServer: process.env.PLAYWRIGHT_BASE_URL ? undefined : {
