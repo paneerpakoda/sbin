@@ -1,6 +1,6 @@
 # Sbin — focused prototype brief
 
-Draft after interview Q1–Q26. This records accepted direction, proposed scope, and experiments. The [technical recommendation](tech-stack-research.md) is complete; implementation and device validation have not started.
+Draft after interview Q1–Q26. This records accepted direction, proposed scope, and experiments. The [technical recommendation](tech-stack-research.md) is complete. The first [launch experiment](../README.md) is implemented and browser-tested; physical iPhone validation and the remaining battle prototype are still pending.
 
 ## Experience to prove
 
@@ -29,7 +29,7 @@ The test is whether constructing, launching and watching the result invites anot
 | Resources | User and Codex; no deadline. |
 | First play | Begin with one guided launch using an assembled starter, then introduce assembly. |
 | First test device | iPhone 17. Safari is the research baseline; installed OS/browser version is not specified. |
-| Source and hosting | Source on GitHub; publish the build on GitHub Pages. Repository owner/name have not been selected. |
+| Source and hosting | Source in `paneerpakoda/sbin` on GitHub; publish the build on GitHub Pages. |
 | Excluded by user | Crowd reactions and related systems; revisit later. |
 
 ## Proposed smallest useful content set
