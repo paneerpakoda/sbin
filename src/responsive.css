@@ -1,0 +1,58 @@
+/* Loaded after base styles through main.ts so responsive rules win in the cascade. */
+@media (min-width: 1000px) and (min-height: 850px) { .game .arena { height: min(57vh, 630px); } }
+@media (max-width: 700px) {
+  .game { padding: 0 16px; }
+  .masthead { height: 92px; gap: 25px; }
+  .wordmark { font-size: 53px; }
+  .wordmark-orbit { width: 96px; bottom: -13px; }
+  .school-note span { font-size: 7px; letter-spacing: 1px; }
+  .school-note p { font-size: 12px; margin-top: 5px; }
+  .icon-button { width: 35px; height: 35px; }
+  .scoreboard { inset: 18px 16px auto; }
+  .practice-tag { font-size: 8px; letter-spacing: .7px; }
+  .practice-tag small { font-size: 6px; margin-left: 12px; letter-spacing: .5px; }
+  .clock output { font-size: 37px; }
+  .clock-label, .personal-best > span { font-size: 6px; letter-spacing: 1px; }
+  .personal-best strong { font-size: 20px; }
+  .arena { height: max(350px, calc(100svh - 385px)); min-height: 350px; max-height: 570px; }
+  .desk-caption { bottom: 22px; left: 16px; }
+  .desk-caption span { font-size: 6px; letter-spacing: 1px; }
+  .desk-caption em { font-size: 14px; }
+  .pause-button { right: 14px; bottom: 20px; font-size: 10px; padding: 10px 12px; }
+  .notebook { padding: 16px 16px 12px; margin: -5px 7px 0; }
+  .chapter { font-size: 7px; letter-spacing: 1px; }
+  .text-button { font-size: 9px; }
+  .lesson { margin-top: 10px; gap: 12px; flex-wrap: wrap; }
+  .lesson h1 { font-size: 26px; }
+  .lesson p { font-size: 11px; line-height: 1.6; margin-top: 5px; }
+  .control-row { margin-top: 14px; gap: 8px; flex-wrap: wrap; }
+  .grips { width: 100%; gap: 8px; }
+  .grip { padding: 8px; gap: 7px; min-height: 54px; }
+  .grip svg { width: 26px; }
+  .grip > span { font-size: 11px; }
+  .grip small { font-size: 6px; letter-spacing: .7px; }
+  .grip i { font-size: 10px; }
+  .demo-button { padding: 6px 0; margin: 0 auto; font-size: 10px; }
+  .demo-button span { font-size: 16px; }
+  .feedback-line { margin-top: 7px; padding-top: 10px; }
+  .feedback-line p { font-size: 11px; }
+  .grip-label { display: none; }
+  .primary-button { padding: 12px 16px; font-size: 12px; }
+  .lesson > .primary-button { width: 100%; display: flex; justify-content: space-between; align-items: center; }
+  .footer { padding-left: 8px; padding-right: 8px; font-size: 8px; margin-top: 18px; }
+  .footer > span:last-child { font-size: 6px; }
+  [data-phase='spinning'] .demo-button { display: none; }
+}
+@media (max-width: 360px) {
+  .game { padding: 0 10px; }
+  .school-note p { font-size: 11px; }
+  .school-note span { font-size: 6px; }
+  .masthead { gap: 19px; }
+  .notebook { margin-left: 3px; margin-right: 3px; padding-left: 12px; padding-right: 12px; }
+  .personal-best > span { letter-spacing: .3px; }
+}
+@media (max-height: 550px) and (min-width: 701px) {
+  .game { padding: 0 20px; }
+  .masthead { height: 78px; }
+  .arena { min-height: 300px; height: 340px; }
+}

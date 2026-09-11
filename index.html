@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f6f1e4" />
+    <meta name="description" content="An eraser, a pen tip, and one more spin. A school-desk game from the last bench in Ranchi." />
+    <title>Sbin — one more spin.</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  </head>
+  <body>
+    <main class="game" id="app" data-phase="loading">
+      <header class="masthead">
+        <a class="wordmark" href="./" aria-label="Sbin home">sbin<span class="wordmark-dot">.</span><span class="wordmark-orbit" aria-hidden="true"></span></a>
+        <div class="school-note"><span>THE UNOFFICIAL LAST PERIOD</span><p>Ranchi. Last bench. Your turn.</p></div>
+        <button class="icon-button" id="sound" aria-label="Turn sound on" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4zM17 8l4 8m0-8-4 8"/></svg></button>
+      </header>
+
+      <section class="play-area" aria-label="Spinner practice">
+        <div class="scoreboard">
+          <div class="practice-tag"><span class="status-dot"></span> FREE PERIOD <small>01 / FIRST SPIN</small></div>
+          <div class="clock"><span class="clock-label" id="clock-label">YOUR SPIN</span><output id="timer" aria-label="Spin time" aria-live="off">00.0<span>s</span></output></div>
+          <div class="personal-best"><span>PERSONAL BEST</span><strong id="best">—</strong></div>
+        </div>
+        <div class="arena" id="arena">
+          <div class="loading" id="loading">Finding a good spot on the desk…</div>
+          <div class="gesture-guide" id="gesture-guide" aria-hidden="true">
+            <svg viewBox="0 0 160 160">
+              <circle class="guide-track" cx="80" cy="80" r="61" />
+              <path class="guide-arc" d="M 28 48 A 61 61 0 1 1 28 112" />
+              <path class="guide-arrow" d="m25 124 2-15 15 4" />
+              <circle class="guide-finger" r="9" cx="80" cy="80" />
+            </svg>
+            <span class="guide-label">round &amp; release</span>
+          </div>
+          <svg class="gesture-trail" id="gesture-trail" aria-hidden="true"><path id="trail-path"/></svg>
+          <div class="desk-caption" aria-hidden="true"><span>ONE ERASER. ONE PEN TIP.</span><em>Infinite “one last try”s.</em></div>
+          <button class="pause-button" id="pause" hidden>Pause spin <span>Ⅱ</span></button>
+          <div class="pause-overlay" id="pause-overlay" hidden><div><span>BACK IN A MINUTE</span><h2>The desk can wait.</h2><button id="resume" class="primary-button">Keep spinning <span>↗</span></button></div></div>
+        </div>
+      </section>
+
+      <section class="notebook" aria-label="Launch controls">
+        <div class="notebook-topline"><span class="chapter" id="chapter">LESSON 01 · THE LAUNCH</span><button id="setup-open" class="text-button" disabled>Your pencil box <span>↗</span></button></div>
+        <div class="lesson">
+          <div class="lesson-copy"><h1 id="instruction">Give it a little spin.</h1><p id="hint">Touch the ring, sweep around it, then lift your finger.</p></div>
+          <button class="primary-button" id="retry" hidden>One more spin <span>↗</span></button>
+        </div>
+        <div class="control-row">
+          <fieldset class="grips"><legend>Choose your grip</legend>
+            <button class="grip selected" data-grip="pinch" aria-pressed="true"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M8 25c-2-6-4-8-2-10 2-1 4 2 5 3V7c0-4 5-4 5 0v9l4-5c3-3 7 0 4 3l-4 6-1 7M11 18l4 4"/></svg><span>Pinch spin<small>THUMB + INDEX</small></span><i aria-hidden="true">✓</i></button>
+            <button class="grip" data-grip="flick" aria-pressed="false"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9 27 6 19c-1-3 3-5 5-2l1 1V6c0-4 5-4 5 0v10l2-11c1-4 5-3 4 1l-1 16-3 5M12 18l4 4"/></svg><span>Finger flick<small>INDEX + MIDDLE</small></span><i aria-hidden="true">✓</i></button>
+          </fieldset>
+          <button class="demo-button" id="demo">Show me a spin <span>▷</span></button>
+        </div>
+        <div class="feedback-line"><span class="scribble-arrow" aria-hidden="true">↳</span><p id="feedback">A smooth curve beats a hurried flick.</p><span class="grip-label" id="grip-label">STEADY HANDS</span></div>
+      </section>
+      <footer class="footer"><span>Made of school memories.</span><span>LAUNCH EXPERIMENT · v0.1</span></footer>
+      <p class="sr-only" id="announcement" role="status" aria-live="polite"></p>
+    </main>
+
+    <dialog id="setup" class="pencil-box">
+      <div class="dialog-top"><span>YOUR PENCIL BOX</span><button class="icon-button" id="setup-close" aria-label="Close pencil box">×</button></div>
+      <h2>Old faithful.</h2><p class="dialog-description">One school eraser. One metal refill tip.<br>Change one thing and feel the difference.</p>
+      <fieldset class="setup-options"><legend>How does the tip fit?</legend><div class="option-pair">
+        <button data-fit="0" class="option selected" aria-pressed="true"><span class="fit-icon straight" aria-hidden="true"></span><strong>Centred</strong><small>A balanced beginning</small></button>
+        <button data-fit="0.75" class="option" aria-pressed="false"><span class="fit-icon crooked" aria-hidden="true"></span><strong>Off-centre</strong><small>A little more wobble</small></button>
+      </div></fieldset>
+      <fieldset class="setup-options"><legend>Pick your spot</legend><div class="option-pair">
+        <button data-surface="plain" class="option selected" aria-pressed="true"><span class="surface-icon" aria-hidden="true"></span><strong>Plain wood</strong><small>Room to wander</small></button>
+        <button data-surface="dent" class="option" aria-pressed="false"><span class="surface-icon dent" aria-hidden="true"></span><strong>That little dent</strong><small>Try settling into it</small></button>
+      </div></fieldset>
+      <button id="setup-done" class="primary-button">Back to the desk <span>↗</span></button>
+      <p class="pencil-box-note">Nothing gets wasted here. Rework it. Try again.</p>
+    </dialog>
+    <noscript>This game needs JavaScript to bring the desk to life.</noscript>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
