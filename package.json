@@ -1,0 +1,25 @@
+{
+  "name": "sbin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24 <26" },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run src",
+    "test:browser": "playwright test",
+    "build": "npm run typecheck && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "experiment:jolt": "node experiments/jolt.mjs"
+  },
+  "dependencies": { "three": "0.186.0" },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/three": "0.185.4",
+    "jolt-physics": "1.1.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.0",
+    "vitest": "5.0.0"
+  }
+}
