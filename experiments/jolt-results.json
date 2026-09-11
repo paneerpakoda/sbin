@@ -1,0 +1,903 @@
+{
+  "package": "jolt-physics@1.1.0",
+  "simulatedSecondsPerCase": 10,
+  "units": "arbitrary scene units; not material calibration",
+  "results": [
+    {
+      "mode": "free-box",
+      "gyro": false,
+      "hz": 120,
+      "toppledAt": null,
+      "maxOmega": 86.36,
+      "maxEnergyDriftPercent": 0,
+      "maxMomentumVectorDriftPercent": 14.1893,
+      "elapsedMs": 13.9,
+      "frames": [
+        {
+          "seconds": 1,
+          "spin": 86.36,
+          "tiltDegrees": 16.31,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 2,
+          "spin": 86.36,
+          "tiltDegrees": 24.43,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 3,
+          "spin": 86.36,
+          "tiltDegrees": 18.04,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 4,
+          "spin": 86.36,
+          "tiltDegrees": 4.13,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 5,
+          "spin": 86.36,
+          "tiltDegrees": 17.48,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 6,
+          "spin": 86.36,
+          "tiltDegrees": 24.46,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 7,
+          "spin": 86.36,
+          "tiltDegrees": 16.91,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 8,
+          "spin": 86.36,
+          "tiltDegrees": 4.28,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 9,
+          "spin": 86.36,
+          "tiltDegrees": 18.58,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 10,
+          "spin": 86.36,
+          "tiltDegrees": 24.38,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "free-box",
+      "gyro": true,
+      "hz": 120,
+      "toppledAt": 0.15,
+      "maxOmega": 127.465,
+      "maxEnergyDriftPercent": 29.4098,
+      "maxMomentumVectorDriftPercent": 86.528,
+      "elapsedMs": 8.3,
+      "frames": [
+        {
+          "seconds": 1,
+          "spin": 111.46,
+          "tiltDegrees": 69.32,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 2,
+          "spin": 111.461,
+          "tiltDegrees": 63.29,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 3,
+          "spin": 111.461,
+          "tiltDegrees": 85.69,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 4,
+          "spin": 113.527,
+          "tiltDegrees": 77.9,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 5,
+          "spin": 111.463,
+          "tiltDegrees": 98.23,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 6,
+          "spin": 111.543,
+          "tiltDegrees": 61.82,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 7,
+          "spin": 111.486,
+          "tiltDegrees": 110.48,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 8,
+          "spin": 111.471,
+          "tiltDegrees": 130.05,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 9,
+          "spin": 111.467,
+          "tiltDegrees": 117.87,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 10,
+          "spin": 111.468,
+          "tiltDegrees": 78.12,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "free-box",
+      "gyro": true,
+      "hz": 240,
+      "toppledAt": 0.30416666666666664,
+      "maxOmega": 127.476,
+      "maxEnergyDriftPercent": 29.4376,
+      "maxMomentumVectorDriftPercent": 100.5339,
+      "elapsedMs": 13.4,
+      "frames": [
+        {
+          "seconds": 1,
+          "spin": 111.46,
+          "tiltDegrees": 109.59,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 2,
+          "spin": 111.463,
+          "tiltDegrees": 98.8,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 3,
+          "spin": 111.466,
+          "tiltDegrees": 86.31,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 4,
+          "spin": 117.11,
+          "tiltDegrees": 40.97,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 5,
+          "spin": 119.582,
+          "tiltDegrees": 84.63,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 6,
+          "spin": 111.474,
+          "tiltDegrees": 83.99,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 7,
+          "spin": 111.473,
+          "tiltDegrees": 54.84,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 8,
+          "spin": 111.484,
+          "tiltDegrees": 38.61,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 9,
+          "spin": 111.745,
+          "tiltDegrees": 70.92,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 10,
+          "spin": 111.735,
+          "tiltDegrees": 28.85,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "free-box",
+      "gyro": true,
+      "hz": 960,
+      "toppledAt": 1.0145833333333334,
+      "maxOmega": 127.552,
+      "maxEnergyDriftPercent": 29.5765,
+      "maxMomentumVectorDriftPercent": 12.6625,
+      "elapsedMs": 47.2,
+      "frames": [
+        {
+          "seconds": 1,
+          "spin": 104.565,
+          "tiltDegrees": 40.81,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 2,
+          "spin": 118.405,
+          "tiltDegrees": 48.24,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 3,
+          "spin": 117.307,
+          "tiltDegrees": 50.28,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 4,
+          "spin": 111.492,
+          "tiltDegrees": 91.38,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 5,
+          "spin": 111.615,
+          "tiltDegrees": 77.25,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 6,
+          "spin": 111.567,
+          "tiltDegrees": 81.13,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 7,
+          "spin": 111.514,
+          "tiltDegrees": 81.33,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 8,
+          "spin": 127.414,
+          "tiltDegrees": 22.59,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 9,
+          "spin": 111.535,
+          "tiltDegrees": 88.05,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "seconds": 10,
+          "spin": 111.541,
+          "tiltDegrees": 95.31,
+          "position": [
+            0,
+            2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "supported-top",
+      "gyro": false,
+      "hz": 120,
+      "toppledAt": null,
+      "maxOmega": 84.972,
+      "maxEnergyDriftPercent": null,
+      "maxMomentumVectorDriftPercent": null,
+      "elapsedMs": 16.5,
+      "frames": [
+        {
+          "seconds": 1,
+          "spin": 81.336,
+          "tiltDegrees": 3.44,
+          "position": [
+            0.008,
+            -0.0016,
+            0.0063
+          ]
+        },
+        {
+          "seconds": 2,
+          "spin": 77.82,
+          "tiltDegrees": 2.93,
+          "position": [
+            0.0169,
+            -0.0017,
+            0.0087
+          ]
+        },
+        {
+          "seconds": 3,
+          "spin": 74.448,
+          "tiltDegrees": 2.46,
+          "position": [
+            0.0219,
+            -0.0016,
+            0.0033
+          ]
+        },
+        {
+          "seconds": 4,
+          "spin": 71.217,
+          "tiltDegrees": 2.09,
+          "position": [
+            0.0206,
+            -0.0018,
+            -0.0018
+          ]
+        },
+        {
+          "seconds": 5,
+          "spin": 68.112,
+          "tiltDegrees": 1.8,
+          "position": [
+            0.0167,
+            -0.0018,
+            -0.0035
+          ]
+        },
+        {
+          "seconds": 6,
+          "spin": 65.134,
+          "tiltDegrees": 1.52,
+          "position": [
+            0.014,
+            -0.0018,
+            -0.0019
+          ]
+        },
+        {
+          "seconds": 7,
+          "spin": 62.273,
+          "tiltDegrees": 1.36,
+          "position": [
+            0.0133,
+            -0.0019,
+            0
+          ]
+        },
+        {
+          "seconds": 8,
+          "spin": 59.523,
+          "tiltDegrees": 0.79,
+          "position": [
+            0.0145,
+            -0.0019,
+            0.0012
+          ]
+        },
+        {
+          "seconds": 9,
+          "spin": 56.882,
+          "tiltDegrees": 0.3,
+          "position": [
+            0.0154,
+            -0.002,
+            0.0009
+          ]
+        },
+        {
+          "seconds": 10,
+          "spin": 54.347,
+          "tiltDegrees": 0,
+          "position": [
+            0.0159,
+            -0.0023,
+            0.0005
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "supported-top",
+      "gyro": true,
+      "hz": 60,
+      "toppledAt": null,
+      "maxOmega": 84.943,
+      "maxEnergyDriftPercent": null,
+      "maxMomentumVectorDriftPercent": null,
+      "elapsedMs": 6.5,
+      "frames": [
+        {
+          "seconds": 1,
+          "spin": 81.31,
+          "tiltDegrees": 4.47,
+          "position": [
+            0.0024,
+            -0.001,
+            0.0126
+          ]
+        },
+        {
+          "seconds": 2,
+          "spin": 77.768,
+          "tiltDegrees": 5.07,
+          "position": [
+            0.0081,
+            -0.0011,
+            0.0301
+          ]
+        },
+        {
+          "seconds": 3,
+          "spin": 74.333,
+          "tiltDegrees": 5.7,
+          "position": [
+            0.0277,
+            -0.001,
+            0.0413
+          ]
+        },
+        {
+          "seconds": 4,
+          "spin": 71.022,
+          "tiltDegrees": 6.48,
+          "position": [
+            0.0523,
+            -0.001,
+            0.0357
+          ]
+        },
+        {
+          "seconds": 5,
+          "spin": 67.829,
+          "tiltDegrees": 7.45,
+          "position": [
+            0.068,
+            -0.0009,
+            0.0116
+          ]
+        },
+        {
+          "seconds": 6,
+          "spin": 64.744,
+          "tiltDegrees": 8.68,
+          "position": [
+            0.0606,
+            -0.0008,
+            -0.0207
+          ]
+        },
+        {
+          "seconds": 7,
+          "spin": 61.759,
+          "tiltDegrees": 10.25,
+          "position": [
+            0.0266,
+            -0.0006,
+            -0.0395
+          ]
+        },
+        {
+          "seconds": 8,
+          "spin": 58.846,
+          "tiltDegrees": 12.69,
+          "position": [
+            0.0296,
+            -0.0021,
+            0.0109
+          ]
+        },
+        {
+          "seconds": 9,
+          "spin": 56.034,
+          "tiltDegrees": 16.39,
+          "position": [
+            0.0922,
+            0.001,
+            0.0742
+          ]
+        },
+        {
+          "seconds": 10,
+          "spin": 53.327,
+          "tiltDegrees": 20.82,
+          "position": [
+            0.205,
+            -0.0023,
+            0.0916
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "supported-top",
+      "gyro": true,
+      "hz": 120,
+      "toppledAt": null,
+      "maxOmega": 84.972,
+      "maxEnergyDriftPercent": null,
+      "maxMomentumVectorDriftPercent": null,
+      "elapsedMs": 11.9,
+      "frames": [
+        {
+          "seconds": 1,
+          "spin": 81.334,
+          "tiltDegrees": 4.22,
+          "position": [
+            0.0037,
+            -0.0014,
+            0.004
+          ]
+        },
+        {
+          "seconds": 2,
+          "spin": 77.813,
+          "tiltDegrees": 4.38,
+          "position": [
+            0.0066,
+            -0.0015,
+            0.0108
+          ]
+        },
+        {
+          "seconds": 3,
+          "spin": 74.435,
+          "tiltDegrees": 4.58,
+          "position": [
+            0.013,
+            -0.0015,
+            0.0151
+          ]
+        },
+        {
+          "seconds": 4,
+          "spin": 71.195,
+          "tiltDegrees": 4.86,
+          "position": [
+            0.021,
+            -0.0014,
+            0.015
+          ]
+        },
+        {
+          "seconds": 5,
+          "spin": 68.086,
+          "tiltDegrees": 5.33,
+          "position": [
+            0.028,
+            -0.0016,
+            0.0097
+          ]
+        },
+        {
+          "seconds": 6,
+          "spin": 65.034,
+          "tiltDegrees": 5.19,
+          "position": [
+            0.0273,
+            -0.0016,
+            -0.0006
+          ]
+        },
+        {
+          "seconds": 7,
+          "spin": 62.103,
+          "tiltDegrees": 5.02,
+          "position": [
+            0.0191,
+            -0.0016,
+            -0.0063
+          ]
+        },
+        {
+          "seconds": 8,
+          "spin": 59.346,
+          "tiltDegrees": 5.42,
+          "position": [
+            0.0102,
+            -0.0016,
+            -0.0057
+          ]
+        },
+        {
+          "seconds": 9,
+          "spin": 56.635,
+          "tiltDegrees": 5.18,
+          "position": [
+            0.006,
+            -0.0017,
+            0.0038
+          ]
+        },
+        {
+          "seconds": 10,
+          "spin": 54.059,
+          "tiltDegrees": 5.09,
+          "position": [
+            0.0108,
+            -0.0014,
+            0.012
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "supported-top",
+      "gyro": true,
+      "hz": 240,
+      "toppledAt": null,
+      "maxOmega": 84.986,
+      "maxEnergyDriftPercent": null,
+      "maxMomentumVectorDriftPercent": null,
+      "elapsedMs": 22.8,
+      "frames": [
+        {
+          "seconds": 1,
+          "spin": 81.356,
+          "tiltDegrees": 4.27,
+          "position": [
+            0.0041,
+            -0.0016,
+            -0.0001
+          ]
+        },
+        {
+          "seconds": 2,
+          "spin": 77.856,
+          "tiltDegrees": 4.39,
+          "position": [
+            0.0049,
+            -0.0014,
+            0.0035
+          ]
+        },
+        {
+          "seconds": 3,
+          "spin": 74.494,
+          "tiltDegrees": 4.55,
+          "position": [
+            0.0076,
+            -0.0016,
+            0.0063
+          ]
+        },
+        {
+          "seconds": 4,
+          "spin": 71.264,
+          "tiltDegrees": 4.71,
+          "position": [
+            0.0115,
+            -0.0016,
+            0.007
+          ]
+        },
+        {
+          "seconds": 5,
+          "spin": 68.161,
+          "tiltDegrees": 4.89,
+          "position": [
+            0.0152,
+            -0.0014,
+            0.0053
+          ]
+        },
+        {
+          "seconds": 6,
+          "spin": 65.182,
+          "tiltDegrees": 5.11,
+          "position": [
+            0.0173,
+            -0.0015,
+            0.0014
+          ]
+        },
+        {
+          "seconds": 7,
+          "spin": 62.325,
+          "tiltDegrees": 5.42,
+          "position": [
+            0.016,
+            -0.0017,
+            -0.0028
+          ]
+        },
+        {
+          "seconds": 8,
+          "spin": 59.516,
+          "tiltDegrees": 5.15,
+          "position": [
+            0.0112,
+            -0.0018,
+            -0.0038
+          ]
+        },
+        {
+          "seconds": 9,
+          "spin": 56.858,
+          "tiltDegrees": 5.14,
+          "position": [
+            0.0074,
+            -0.0017,
+            -0.0015
+          ]
+        },
+        {
+          "seconds": 10,
+          "spin": 54.292,
+          "tiltDegrees": 5.11,
+          "position": [
+            0.007,
+            -0.0018,
+            0.003
+          ]
+        }
+      ]
+    }
+  ]
+}
